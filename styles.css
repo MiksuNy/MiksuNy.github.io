@@ -1,0 +1,76 @@
+* {
+    background-color: rgb(15, 15, 15);
+    font-family: 'Poppins', sans-serif;
+}
+
+.page {
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    border-width: 50px;
+}
+
+.drop-button {
+    text-decoration: solid;
+    color: black;
+    background-color: rgb(40, 255, 255);
+    font-size: 24px;
+}
+
+.drop-button:hover .dropdown-content {
+    display: flex;
+    flex: content;
+    font-size: 24px;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: rgb(40, 255, 255);
+}
+
+.dropdown-content ul {
+    padding: 5px;
+    list-style-type: none;
+    text-align: left;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.dropdown-content ul li {
+    display: flex;
+    padding: 10px;
+}
+
+.dropdown-content ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    padding: 1px;
+    color: rgb(240, 255, 255);
+}
+
+.page-text {
+    display: block;
+    font-size: 20px;
+    color: rgb(240, 255, 255);
+}
+
+.page-text * {
+    display: block;
+}
+
+i {
+    color: rgb(40, 255, 255);
+}
+
+.page-image {
+    display: flex;
+    flex: auto;
+    justify-content: left;
+    font-size: 100px;
+    margin: 20px;
+}
