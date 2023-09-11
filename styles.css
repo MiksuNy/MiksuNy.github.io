@@ -63,6 +63,10 @@
     color: rgb(240, 255, 255);
 }
 
+.page-text h1 {
+    text-decoration: underline;
+}
+
 .page-text * {
     display: block;
 }
