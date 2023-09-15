@@ -5,7 +5,7 @@
 
 .page {
     box-sizing: border-box;
-    padding: 30px;
+    margin: 5%;
 }
 
 img {
@@ -13,11 +13,12 @@ img {
 }
 
 .dropdown {
-    position: relative;
+    position: sticky;
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
-    border-width: 50px;
+    align-items: center;
 }
 
 .drop-button {
@@ -27,11 +28,18 @@ img {
     font-size: 24px;
 }
 
+@keyframes dropdelay {
+    from {display: none;}
+    to {display: flex;}
+}
+
 .drop-button:hover .dropdown-content {
     display: flex;
     flex-flow: column;
     justify-content: center;
     font-size: 24px;
+    animation-name: dropdelay;
+    animation-duration: 2s;
 }
 
 .dropdown-content {
@@ -79,7 +87,7 @@ i {
     color: rgb(40, 255, 255);
 }
 
-.page-image {
+.page-icon {
     display: flex;
     flex: auto;
     justify-content: left;
