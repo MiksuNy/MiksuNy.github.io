@@ -28,18 +28,11 @@ img {
     font-size: 24px;
 }
 
-@keyframes dropdelay {
-    from {display: none;}
-    to {display: flex;}
-}
-
 .drop-button:hover .dropdown-content {
     display: flex;
     flex-flow: column;
     justify-content: center;
     font-size: 24px;
-    animation-name: dropdelay;
-    animation-duration: 2s;
 }
 
 .dropdown-content {
