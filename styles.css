@@ -13,7 +13,7 @@ img {
 }
 
 .dropdown {
-    position: sticky;
+    position: relative;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -22,10 +22,11 @@ img {
 }
 
 .drop-button {
-    border-radius: 10px;
+    border-radius: 5px;
     color: rgb(0, 0, 0);
     background-color: rgb(40, 255, 255);
     font-size: 24px;
+    border: none;
 }
 
 .drop-button:hover .dropdown-content {
